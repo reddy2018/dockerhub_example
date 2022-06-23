@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t docker994/dp-alpine:latest .'
+        sh 'docker build -t reddy2018/dp-alpine:latest .'
       }
     }
     stage('Login') {
